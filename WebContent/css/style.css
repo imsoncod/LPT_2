@@ -21,8 +21,13 @@ html, body {
 	font-family: 'main';
 }
 
+.container_jocoding{
+	width: 100%;
+	height: auto;
+}
+
 .jocoding{
-	font-size: 14px;
+	font-size: 18px;
 	float: right;
 	margin-right: 1em;
 	color: #F7570B;
