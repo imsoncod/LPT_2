@@ -24,6 +24,9 @@ html, body {
 .container_jocoding{
 	width: 100%;
 	height: auto;
+	position: fixed;
+	right : 1em;
+	top : 3em;
 }
 
 .jocoding{
