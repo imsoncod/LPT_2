@@ -21,6 +21,12 @@ html, body {
 	font-family: 'main';
 }
 
+.jocoding{
+	font-size: 14px;
+	float: right;
+	margin-right: 1em;
+}
+
 /* 레이아웃 디자인 */
 .layout {
 	width: 100%;
