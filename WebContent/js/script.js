@@ -238,7 +238,6 @@ function setPage(a,b,c,d,e,eng,result,message){
 	tag += '<div id="graph"></div><br>';
 	tag += '<span id="graph_text">[포지션별 나의 성향]</span> <br>';
 	tag += '<button id="btn_mainpage" type = "button" onclick="mainpage()">메인 페이지</button><br><br>';
-	tag += '<script>Ad2();</script><br>';
 	
 	html.innerHTML = tag;
 }
