@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'main';
-  src: url('fonts/main.ttf') format('truetype'),
-       url('fonts/main.woff') format('woff'),
-       url('fonts/main.woff2') format('woff2'),
-       url('fonts/main.eot');
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -18,7 +8,7 @@
 html, body {
 	width: 100%;
 	height: 100hv;
-	font-family: 'main';
+	font-family: '한컴 백제 M';
 }
 
 .container_jocoding{
