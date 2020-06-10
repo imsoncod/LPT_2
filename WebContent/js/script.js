@@ -477,8 +477,9 @@ function setPage(a,b,c,d,e,eng,result,message){
 	tag += '<img src = "img/naver.png" onclick="naver()"/>';
 	tag += '</div><br>';
 	tag += '<img src="'+eng+'"><br>';
-	tag += '<span id="positon">'+result+'</span><br><br>';
-	tag += '<span id="positon_text">'+message+'</span><br><br>';
+	tag += '<span id="position">'+result+'</span><br><br>';
+	tag += '<span id="position_text">'+message+'</span><br><br>';
+	
 	graph(a, b, c, d, e);
 	tag += '<div id="graph"></div><br>';
 	
@@ -508,7 +509,7 @@ function graph(a, b, c, d, e) {
 
     if(language != 'English'){
         var data = google.visualization.arrayToDataTable([
-            ['LPT', 'Positon'],
+            ['LPT', 'Position'],
             ['미드', c],
             ['원딜', d],
             ['정글', b],
@@ -517,7 +518,7 @@ function graph(a, b, c, d, e) {
           ]);
     }else{
     	var data = google.visualization.arrayToDataTable([
-            ['LPT', 'Positon'],
+            ['LPT', 'Position'],
             ['Mid', c],
             ['Adc', d],
             ['Jungle', b],
