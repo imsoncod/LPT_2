@@ -161,7 +161,7 @@ function TranslationTest1(){
 		$('#a_q10_4').text('Disagree');
 		$('#a_q10_5').text('Strongly disagree');
 		
-		$('btn_nextpage').html('Next Page');
+		$('btn_nextpage').text('Next Page').button('refresh');
 		
 	}
 }
