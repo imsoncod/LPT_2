@@ -161,7 +161,7 @@ function TranslationTest1(){
 		$('#a_q10_4').text('Disagree');
 		$('#a_q10_5').text('Strongly disagree');
 		
-		console.log($('btn_nextpage').text);
+		console.log($('btn_nextpage').text());
 		
 	}
 }
