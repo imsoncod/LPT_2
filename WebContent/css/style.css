@@ -11,12 +11,18 @@ html, body {
 	font-family: 'Jua', sans-serif;
 }
 
-.container_jocoding{
+.container{
 	width: 100%;
 	height: auto;
 	position: fixed;
 	right : 0.2em;
 	top : 5.5em;
+}
+
+.language{
+	font-size: 18px;
+	float: left;
+	margin-left: 0.5em;
 }
 
 .jocoding{

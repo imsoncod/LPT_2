@@ -15,7 +15,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-167602755-1');
 </script>
 <meta charset="UTF-8">
@@ -43,8 +42,12 @@
 	<div class="layout">
 		<img  src="img/logoname.png"> <br>
 	</div>
-	<div class = "container_jocoding">
-		<a class = "jocoding" href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg">제작 도움 : 조코딩 유튜브 채널</a>
+	<div class = "container">
+		<select class="language" id = "language" onchange="changeLanguage()">
+			<option value='ko'>한국어</option>
+			<option value='en'>English</option>
+		</select>
+		<a class = "jocoding" id = "jocoding" href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg">제작 도움 : 조코딩 유튜브 채널</a>
 	</div>
 	
 		<div class="main">
