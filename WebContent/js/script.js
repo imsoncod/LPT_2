@@ -90,7 +90,6 @@ function changeLanguage(){
 
 function TranslationTest1(){
 	var language = sessionStorage.getItem('language');
-	console.log(language);
 	if(language == 'English'){
 		$('#q1').text('1. I\'m sensitive to what people around me think of me.');
 		$('#a_q1_1').text('Strongly agree');
@@ -161,6 +160,9 @@ function TranslationTest1(){
 		$('#a_q10_3').text('Neutral');
 		$('#a_q10_4').text('Disagree');
 		$('#a_q10_5').text('Strongly disagree');
+		
+		$('btn_nextpage').text('Next Page');
+		
 	}
 }
 
@@ -236,6 +238,8 @@ function TranslationTest2(){
 		$('#a_q20_3').text('Neutral');
 		$('#a_q20_4').text('Disagree');
 		$('#a_q20_5').text('Strongly disagree');
+		
+		$('btn_nextpage').text('Next Page');
 	}
 }
 
@@ -496,7 +500,8 @@ function graph(a, b, c, d, e) {
     google.charts.setOnLoadCallback(drawChart);
     function drawChart() {
     var language = sessionStorage.getItem('language');
-    if(language == 'English'){
+
+    if(language != 'English'){
         var data = google.visualization.arrayToDataTable([
             ['LPT', 'Positon'],
             ['미드', c],
