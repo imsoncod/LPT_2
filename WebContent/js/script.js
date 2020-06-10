@@ -90,6 +90,7 @@ function changeLanguage(){
 
 function TranslationTest1(){
 	var language = sessionStorage.getItem('language');
+	console.log(language);
 	if(language == 'English'){
 		$('#q1').text('I\'m sensitive to what people around me think of me.');
 		$('#q1_1').text('Strongly agree');
