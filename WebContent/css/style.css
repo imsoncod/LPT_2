@@ -213,16 +213,17 @@ html, body {
 	margin-top: 100px;
 }
 
-.result #positon{
+.result #position{
 	font-size: 5em;
 	font-family: '맑은 고딕';
 	z-index: 1;
 }
 
-.result #positon_text{
+.result #position_text{
 	width: 100%;
 	font-size: 1em;
 	position: absolute;
+	text-align: center;
 	transform: translate(-50%, -50%);
 	z-index: 1;
 }

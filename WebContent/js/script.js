@@ -281,6 +281,8 @@ function nextpage() {
 
 /*다음 페이지로 넘어갈지 체크*/
 function resultpage() {
+	var language = sessionStorage.getItem('language');
+	
 	var ans2 = [];
 	var go = true; //submit여부를 결정하는 변수
 	for(var i = 11; i <= 20; i++) {
@@ -475,8 +477,8 @@ function setPage(a,b,c,d,e,eng,result,message){
 	tag += '<img src = "img/naver.png" onclick="naver()"/>';
 	tag += '</div><br>';
 	tag += '<img src="'+eng+'"><br>';
-	tag += '<span id="positon">'+result+'</span> <br><br>';
-	tag += '<span id="positon_text">'+message+'</span> <br><br>';
+	tag += '<span id="positon">'+result+'</span><br><br>';
+	tag += '<span id="positon_text">'+message+'</span><br><br>';
 	graph(a, b, c, d, e);
 	tag += '<div id="graph"></div><br>';
 	
