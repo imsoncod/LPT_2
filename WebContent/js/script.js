@@ -491,6 +491,7 @@ function setPage(a,b,c,d,e,eng,result,message){
 
 /*도메인 넣을것*/
 function mainpage() {
+	sessionStorage.setItem('language', '한국어');
 	location.href='index.html';
 }
 
