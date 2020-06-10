@@ -393,7 +393,7 @@ function calc(){
 		}
 	}else{
 		var eng = 'img/top.png';
-		var result = 'Top';
+		var result = '탑';
 		var message = '고독을 견딜 준비가 되셨나요?';
 		
 		var temp = a;
