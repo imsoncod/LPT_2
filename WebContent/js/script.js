@@ -92,150 +92,150 @@ function TranslationTest1(){
 	var language = sessionStorage.getItem('language');
 	console.log(language);
 	if(language == 'English'){
-		$('#q1').text('I\'m sensitive to what people around me think of me.');
-		$('#q1_1').text('Strongly agree');
-		$('#q1_2').text('Agree');
-		$('#q1_3').text('Neutral');
-		$('#q1_4').text('Disagree');
-		$('#q1_5').text('Strongly disagree');
+		$('#q1').text('1. I\'m sensitive to what people around me think of me.');
+		$('#a_q1_1').text('Strongly agree');
+		$('#a_q1_2').text('Agree');
+		$('#a_q1_3').text('Neutral');
+		$('#a_q1_4').text('Disagree');
+		$('#a_q1_5').text('Strongly disagree');
 		
-		$('#q2').text('I think I am superior to others.');
-		$('#q2_1').text('Strongly agree');
-		$('#q2_2').text('Agree');
-		$('#q2_3').text('Neutral');
-		$('#q2_4').text('Disagree');
-		$('#q2_5').text('Strongly disagree');
+		$('#q2').text('2. I think I am superior to others.');
+		$('#a_q2_1').text('Strongly agree');
+		$('#a_q2_2').text('Agree');
+		$('#a_q2_3').text('Neutral');
+		$('#a_q2_4').text('Disagree');
+		$('#a_q2_5').text('Strongly disagree');
 		
-		$('#q3').text('I like to be noticed.');
-		$('#q3_1').text('Strongly agree');
-		$('#q3_2').text('Agree');
-		$('#q3_3').text('Neutral');
-		$('#q3_4').text('Disagree');
-		$('#q3_5').text('Strongly disagree');
+		$('#q3').text('3. I like to be noticed.');
+		$('#a_q3_1').text('Strongly agree');
+		$('#a_q3_2').text('Agree');
+		$('#a_q3_3').text('Neutral');
+		$('#a_q3_4').text('Disagree');
+		$('#a_q3_5').text('Strongly disagree');
 		
-		$('#q4').text('I pursue reality rather than ideal.');
-		$('#q4_1').text('Strongly agree');
-		$('#q4_2').text('Agree');
-		$('#q4_3').text('Neutral');
-		$('#q4_4').text('Disagree');
-		$('#q4_5').text('Strongly disagree');
+		$('#q4').text('4. I pursue reality rather than ideal.');
+		$('#a_q4_1').text('Strongly agree');
+		$('#a_q4_2').text('Agree');
+		$('#a_q4_3').text('Neutral');
+		$('#a_q4_4').text('Disagree');
+		$('#a_q4_5').text('Strongly disagree');
 		
-		$('#q5').text('I think I sympathize well with other people\'s feelings.');
-		$('#q5_1').text('Strongly agree');
-		$('#q5_2').text('Agree');
-		$('#q5_3').text('Neutral');
-		$('#q5_4').text('Disagree');
-		$('#q5_5').text('Strongly disagree');
+		$('#q5').text('5. I think I sympathize well with other people\'s feelings.');
+		$('#a_q5_1').text('Strongly agree');
+		$('#a_q5_2').text('Agree');
+		$('#a_q5_3').text('Neutral');
+		$('#a_q5_4').text('Disagree');
+		$('#a_q5_5').text('Strongly disagree');
 		
-		$('#q6').text('I tend to think and talk many times.');
-		$('#q6_1').text('Strongly agree');
-		$('#q6_2').text('Agree');
-		$('#q6_3').text('Neutral');
-		$('#q6_4').text('Disagree');
-		$('#q6_5').text('Strongly disagree');
+		$('#q6').text('6. I tend to think and talk many times.');
+		$('#a_q6_1').text('Strongly agree');
+		$('#a_q6_2').text('Agree');
+		$('#a_q6_3').text('Neutral');
+		$('#a_q6_4').text('Disagree');
+		$('#a_q6_5').text('Strongly disagree');
 		
-		$('#q7').text('I tend to plan thoroughly before I start something.');
-		$('#q7_1').text('Strongly agree');
-		$('#q7_2').text('Agree');
-		$('#q7_3').text('Neutral');
-		$('#q7_4').text('Disagree');
-		$('#q7_5').text('Strongly disagree');
+		$('#q7').text('7. I tend to plan thoroughly before I start something.');
+		$('#a_q7_1').text('Strongly agree');
+		$('#a_q7_2').text('Agree');
+		$('#a_q7_3').text('Neutral');
+		$('#a_q7_4').text('Disagree');
+		$('#a_q7_5').text('Strongly disagree');
 		
-		$('#q8').text('I am sometimes dominated by my feelings.');
-		$('#q8_1').text('Strongly agree');
-		$('#q8_2').text('Agree');
-		$('#q8_3').text('Neutral');
-		$('#q8_4').text('Disagree');
-		$('#q8_5').text('Strongly disagree');
+		$('#q8').text('8. I am sometimes dominated by my feelings.');
+		$('#a_q8_1').text('Strongly agree');
+		$('#a_q8_2').text('Agree');
+		$('#a_q8_3').text('Neutral');
+		$('#a_q8_4').text('Disagree');
+		$('#a_q8_5').text('Strongly disagree');
 		
-		$('#q9').text('I tend to have a lot of lingering feelings about the past.');
-		$('#q9_1').text('Strongly agree');
-		$('#q9_2').text('Agree');
-		$('#q9_3').text('Neutral');
-		$('#q9_4').text('Disagree');
-		$('#q9_5').text('Strongly disagree');
+		$('#q9').text('9. I tend to have a lot of lingering feelings about the past.');
+		$('#a_q9_1').text('Strongly agree');
+		$('#a_q9_2').text('Agree');
+		$('#a_q9_3').text('Neutral');
+		$('#a_q9_4').text('Disagree');
+		$('#a_q9_5').text('Strongly disagree');
 		
-		$('#q10').text('I don\'t listen to others.');
-		$('#q10_1').text('Strongly agree');
-		$('#q10_2').text('Agree');
-		$('#q10_3').text('Neutral');
-		$('#q10_4').text('Disagree');
-		$('#q10_5').text('Strongly disagree');
+		$('#q10').text('10. I don\'t listen to others.');
+		$('#a_q10_1').text('Strongly agree');
+		$('#a_q10_2').text('Agree');
+		$('#a_q10_3').text('Neutral');
+		$('#a_q10_4').text('Disagree');
+		$('#a_q10_5').text('Strongly disagree');
 	}
 }
 
 function TranslationTest2(){
 	var language = sessionStorage.getItem('language');
 	if(language == 'English'){
-		$('#q11').text('I often hear from around me that I\'m impatient.');
-		$('#q11_1').text('Strongly agree');
-		$('#q11_2').text('Agree');
-		$('#q11_3').text('Neutral');
-		$('#q11_4').text('Disagree');
-		$('#q11_5').text('Strongly disagree');
+		$('#q11').text('11. I often hear from around me that I\'m impatient.');
+		$('#a_q11_1').text('Strongly agree');
+		$('#a_q11_2').text('Agree');
+		$('#a_q11_3').text('Neutral');
+		$('#a_q11_4').text('Disagree');
+		$('#a_q11_5').text('Strongly disagree');
 		
-		$('#q12').text('I respond well to other people\'s moods.');
-		$('#q12_1').text('Strongly agree');
-		$('#q12_2').text('Agree');
-		$('#q12_3').text('Neutral');
-		$('#q12_4').text('Disagree');
-		$('#q12_5').text('Strongly disagree');
+		$('#q12').text('12. I respond well to other people\'s moods.');
+		$('#a_q12_1').text('Strongly agree');
+		$('#a_q12_2').text('Agree');
+		$('#a_q12_3').text('Neutral');
+		$('#a_q12_4').text('Disagree');
+		$('#a_q12_5').text('Strongly disagree');
 		
-		$('#q13').text('I can keep my composure in front of a large crowd.');
-		$('#q13_1').text('Strongly agree');
-		$('#q13_2').text('Agree');
-		$('#q13_3').text('Neutral');
-		$('#q13_4').text('Disagree');
-		$('#q13_5').text('Strongly disagree');
+		$('#q13').text('13. I can keep my composure in front of a large crowd.');
+		$('#a_q13_1').text('Strongly agree');
+		$('#a_q13_2').text('Agree');
+		$('#a_q13_3').text('Neutral');
+		$('#a_q13_4').text('Disagree');
+		$('#a_q13_5').text('Strongly disagree');
 		
-		$('#q14').text('It is difficult for me to proceed with the work in order.');
-		$('#q14_1').text('Strongly agree');
-		$('#q14_2').text('Agree');
-		$('#q14_3').text('Neutral');
-		$('#q14_4').text('Disagree');
-		$('#q14_5').text('Strongly disagree');
+		$('#q14').text('14. It is difficult for me to proceed with the work in order.');
+		$('#a_q14_1').text('Strongly agree');
+		$('#a_q14_2').text('Agree');
+		$('#a_q14_3').text('Neutral');
+		$('#a_q14_4').text('Disagree');
+		$('#a_q14_5').text('Strongly disagree');
 		
-		$('#q15').text('I am bored can not stand well.');
-		$('#q15_1').text('Strongly agree');
-		$('#q15_2').text('Agree');
-		$('#q15_3').text('Neutral');
-		$('#q15_4').text('Disagree');
-		$('#q15_5').text('Strongly disagree');
+		$('#q15').text('15. I am bored can not stand well.');
+		$('#a_q15_1').text('Strongly agree');
+		$('#a_q15_2').text('Agree');
+		$('#a_q15_3').text('Neutral');
+		$('#a_q15_4').text('Disagree');
+		$('#a_q15_5').text('Strongly disagree');
 		
-		$('#q16').text('I sometimes act without regard for danger.');
-		$('#q16_1').text('Strongly agree');
-		$('#q16_2').text('Agree');
-		$('#q16_3').text('Neutral');
-		$('#q16_4').text('Disagree');
-		$('#q16_5').text('Strongly disagree');
+		$('#q16').text('16. I sometimes act without regard for danger.');
+		$('#a_q16_1').text('Strongly agree');
+		$('#a_q16_2').text('Agree');
+		$('#a_q16_3').text('Neutral');
+		$('#a_q16_4').text('Disagree');
+		$('#a_q16_5').text('Strongly disagree');
 		
-		$('#q17').text('I don\'t finish what I have to do well according to my instructions.');
-		$('#q17_1').text('Strongly agree');
-		$('#q17_2').text('Agree');
-		$('#q17_3').text('Neutral');
-		$('#q17_4').text('Disagree');
-		$('#q17_5').text('Strongly disagree');
+		$('#q17').text('17. I don\'t finish what I have to do well according to my instructions.');
+		$('#a_q17_1').text('Strongly agree');
+		$('#a_q17_2').text('Agree');
+		$('#a_q17_3').text('Neutral');
+		$('#a_q17_4').text('Disagree');
+		$('#a_q17_5').text('Strongly disagree');
 		
-		$('#q18').text('I often fall into the thought of ignoring or forgetting my surroundings.');
-		$('#q18_1').text('Strongly agree');
-		$('#q18_2').text('Agree');
-		$('#q18_3').text('Neutral');
-		$('#q18_4').text('Disagree');
-		$('#q18_5').text('Strongly disagree');
+		$('#q18').text('18. I often fall into the thought of ignoring or forgetting my surroundings.');
+		$('#a_q18_1').text('Strongly agree');
+		$('#a_q18_2').text('Agree');
+		$('#a_q18_3').text('Neutral');
+		$('#a_q18_4').text('Disagree');
+		$('#a_q18_5').text('Strongly disagree');
 		
-		$('#q19').text('I usually don\'t start a conversation first.');
-		$('#q19_1').text('Strongly agree');
-		$('#q19_2').text('Agree');
-		$('#q19_3').text('Neutral');
-		$('#q19_4').text('Disagree');
-		$('#q19_5').text('Strongly disagree');
+		$('#q19').text('19. I usually don\'t start a conversation first.');
+		$('#a_q19_1').text('Strongly agree');
+		$('#a_q19_2').text('Agree');
+		$('#a_q19_3').text('Neutral');
+		$('#a_q19_4').text('Disagree');
+		$('#a_q19_5').text('Strongly disagree');
 		
-		$('#q20').text('I think winning an argument is more important than the feelings of others.');
-		$('#q20_1').text('Strongly agree');
-		$('#q20_2').text('Agree');
-		$('#q20_3').text('Neutral');
-		$('#q20_4').text('Disagree');
-		$('#q20_5').text('Strongly disagree');
+		$('#q20').text('20. I think winning an argument is more important than the feelings of others.');
+		$('#a_q20_1').text('Strongly agree');
+		$('#a_q20_2').text('Agree');
+		$('#a_q20_3').text('Neutral');
+		$('#a_q20_4').text('Disagree');
+		$('#a_q20_5').text('Strongly disagree');
 	}
 }
 
