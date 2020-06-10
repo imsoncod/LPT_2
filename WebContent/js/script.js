@@ -71,6 +71,9 @@ function cancel(){
 
 /*검사시작*/
 function start(){
+	var language = document.getElementById('language');
+	language = language.options[language.selectedIndex].text;
+	sessionStorage.setItem('language', language);
 	location.href = "test1.html"
 }
 
@@ -491,7 +494,6 @@ function setPage(a,b,c,d,e,eng,result,message){
 
 /*도메인 넣을것*/
 function mainpage() {
-	sessionStorage.setItem('language', '한국어');
 	location.href='index.html';
 }
 
