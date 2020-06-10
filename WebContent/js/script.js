@@ -300,6 +300,8 @@ function resultpage() {
 			}else{
 				alert('Please respond to question ' + i);
 			}
+			go = false;
+			break;
 		}
 	}
 	if(go==true){
