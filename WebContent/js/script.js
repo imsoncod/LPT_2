@@ -83,9 +83,11 @@ function changeLanguage(){
 	sessionStorage.setItem('language', language);
 	
 	if(language == '한국어'){
+		$('#top_logo').attr("src", "img/logoname.png");
 		$('#jocoding').text('제작 도움 : 조코딩 유튜브 채널');
 		$('#start_box').text('검사 시작!');
 	}else{
+		$('#top_logo').attr("src", "img/logoname_eng.jpg");
 		$('#jocoding').text('Help : Jocoding Youtube');
 		$('#start_box').text('Start Testing');
 	}
