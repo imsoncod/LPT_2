@@ -96,6 +96,8 @@ function changeLanguage(){
 function TranslationTest1(){
 	var language = sessionStorage.getItem('language');
 	if(language == 'English'){	
+		$('#top_logo').attr("src", "img/logoname_eng.jpg");
+		
 		$('#q1').text('1. I\'m sensitive to what people around me think of me.');
 		$('#a_q1_1').text('Strongly agree');
 		$('#a_q1_2').text('Agree');
@@ -173,6 +175,7 @@ function TranslationTest1(){
 function TranslationTest2(){
 	var language = sessionStorage.getItem('language');
 	if(language == 'English'){
+		$('#top_logo').attr("src", "img/logoname_eng.jpg");
 		
 		$('#q11').text('11. I often hear from around me that I\'m impatient.');
 		$('#a_q11_1').text('Strongly agree');
@@ -489,6 +492,7 @@ function setPage(a,b,c,d,e,eng,result,message){
 	
 	var language = sessionStorage.getItem('language');
 	if(language == 'English'){
+		$('#top_logo').attr("src", "img/logoname_eng.jpg");
 		tag += '<span id="graph_text">[My propensity by position]</span> <br>';
 		tag += '<button id="btn_mainpage" type = "button" onclick="mainpage()">Main Page</button><br><br>';
 	}else{
