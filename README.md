@@ -6,3 +6,15 @@
 <br>
 
 ### 조코딩 10만 구독자 이벤트에 당첨되었습니다! 👏
+
+### 2020-07-08 NAVER 실시간 검색어 1위! 👏
+
+<br>
+
+## 뉴스 기사
+
+#### ['롤 포지션 테스트'...나에게 꼭 맞는 포지션은 어디? / 금강일보](http://www.ggilbo.com/news/articleView.html?idxno=782050)
+
+#### ['롤 포지션 테스트' 인기…심리테스트로 알아보는 게임 성향 / 세계일보](http://www.segye.com/newsView/20200708523743?OutUrl=naver)
+
+#### [롤 포지션 테스트, 리그 오브 레전드 유저들의 관심…내게 어울리는 포지션은?](http://enter.etoday.co.kr/view/news_view.php?varAtcId=183500)
