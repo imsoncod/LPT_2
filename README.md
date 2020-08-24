@@ -18,3 +18,11 @@
 #### ['롤 포지션 테스트' 인기…심리테스트로 알아보는 게임 성향 / 세계일보](http://www.segye.com/newsView/20200708523743?OutUrl=naver)
 
 #### [롤 포지션 테스트, 리그 오브 레전드 유저들의 관심…내게 어울리는 포지션은? / 비즈엔터](http://enter.etoday.co.kr/view/news_view.php?varAtcId=183500)
+
+<br>
+
+## 시스템 구성도
+
+  ![image](https://user-images.githubusercontent.com/48934537/91051419-0d6ed080-e65b-11ea-96e9-eda77316f36f.png)
+
+<br>
